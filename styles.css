@@ -1,0 +1,125 @@
+ h1{
+    color:black;
+    font-display:inherit;
+    width: 11em;
+    text-align: center;
+    border: 3px solid #DE3163;
+    border-radius: 40px;
+    box-shadow: 9px 6px 4px #5B2C6F;
+    padding: 7px 11px;
+    background-image: linear-gradient(150deg, #EAFAF1 , #E8DAEF 30%,#E5E8E8 );
+}
+h4{
+    color:black;
+    font-display: inherit;
+    width: 11em;
+    text-align: center;
+    border:3px solid cornflowerblue;
+    border-radius: 40px;
+    box-shadow: 9px 6px 4px #4166ab;
+    padding: 7px 11px;
+
+
+}
+
+.container img {
+    display: block; /* Display the image as a block element */
+    margin: 0 auto; /* Center the image horizontally */
+}
+
+.number-plate {
+    display: block; /* Display the number plate as a block element */
+    margin-top: 1px; /* Add some space between the image and number plate */
+    color: white; /* Set number plate color to white */
+    font-size: 14px; /* Adjust font size */
+    max-width: 100%; /* Ensure the number plate doesn't overflow its container */
+    overflow: hidden; /* Hide any overflow */
+    white-space: nowrap; /* Prevent wrapping of long number plates */
+}
+
+.container {
+    margin:50px;
+    width: 950px;
+    padding: 70px;
+    
+    background-color: #adb4bde0;
+    background-blend-mode: lighten;
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.519);
+    display: flex;
+    flex-direction:column; /* Align items vertically */
+    align-items:normal;/* Center items horizontally */
+    text-align: center;
+}
+
+
+#parking-space {
+    
+    margin: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 600px;
+    height: 650px;
+    border: 5px solid #666;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    justify-content: normal; /* Center the parking space horizontally */
+}
+
+
+.block {
+    width: 90px; /* Increase the width */
+    height: 90px; /* Increase the height */
+    border: 1px solid black;
+    text-align: center;
+    line-height: 80px; /* Adjust the line height */
+    font-size: 16px; /* Decrease the font size */
+    border-radius: 10px;
+    margin: 7px; /* Add margin to create space between blocks */
+}
+
+.car-block {
+    background-color: rgb(4, 4, 4);
+}
+
+.bike-block {
+    background-color: rgb(62, 37, 221);
+}
+
+.vehicle-icon {
+    width: 40px; /* Adjust the size of the vehicle icon */
+    height: 40px;
+    vertical-align:middle;
+    
+    
+}
+
+#vehicle-form {
+     /* Display the number plate as a block element */
+    margin-top: 0 px; /* Add some space between the image and number plate */
+    color: white; /* Set number plate color to white */
+    font-size: 14px; 
+    
+}
+
+#message {
+    margin-top: 20px;
+    font-size: 20px;
+    color: rgb(17, 16, 16);
+}
+
+#vehicle-input {
+    color: rgb(10, 10, 10);
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+body {
+    background-image: url('./a7932f2da0dac574bb0324f9069ed97b.jpg');
+    background-size: cover;
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    height: 100vh; /* Make body full height of viewport */
+    margin: 0;
+}
